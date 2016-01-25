@@ -9,3 +9,4 @@ Team 7 - Statistical Computing
 Jenny yl266@duke.edu
 
 Basil Seif - basil.seif@duke.edu
+a new change :)
