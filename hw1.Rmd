@@ -1,0 +1,44 @@
+Homework 1 - [Your team name here]
+========================================================
+
+### Implementation
+
+<!--
+Use this section to implement the fizzbuzz function.
+
+This should include a short write up describing your approach
+to implementing the function. Not both code formating / style
+and your writeup matter for your overall grade.
+-->
+
+```{r}
+
+FizzBuzz = function(v){
+  a=v
+  for ( i in 1:length(v)){
+    if (v[i]%%3==0 && v[i]%%5!=0)
+      a[i]="Buzz"
+    if (v[i]%%3!=0 && v[i]%%5==0)
+      a[i]="Fizz"
+    if (v[i]%%15==0)
+      a[i]="FizzBuzz"
+    
+  }
+  for( j in 1:length(a)){
+    print(a[j])
+  }
+}
+```
+
+### Output
+
+<!--
+Use this section to show the output of your 
+fizzbuzz function for integer values from 30 to 50.
+
+No writeup is necessary for this section.
+-->
+
+```{r}
+FizzBuzz(30:50)
+```
