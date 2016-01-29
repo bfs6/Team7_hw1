@@ -1,3 +1,5 @@
+[![wercker status](https://app.wercker.com/status/9d93f4e3e14b8e123570b7aacfab0b19/m "wercker status")](https://app.wercker.com/project/bykey/9d93f4e3e14b8e123570b7aacfab0b19)
+
 <<<<<<< HEAD
 
 Team 7
