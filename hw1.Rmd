@@ -10,6 +10,9 @@ This should include a short write up describing your approach
 to implementing the function. Not both code formating / style
 and your writeup matter for your overall grade.
 -->
+The code works by taking in any vector argument of floats and then iterates through all of the arguments in sequential order.
+Then it checks if the indices of the vector are divisible by 3, 5, or 15. It then replaces those values with the respective word.
+Lastly I print out everything thus retrieving the results line by line. 
 
 ```{r}
 
@@ -38,6 +41,27 @@ fizzbuzz function for integer values from 30 to 50.
 
 No writeup is necessary for this section.
 -->
+[1] "FizzBuzz"
+[1] "31"
+[1] "32"
+[1] "Buzz"
+[1] "34"
+[1] "Fizz"
+[1] "Buzz"
+[1] "37"
+[1] "38"
+[1] "Buzz"
+[1] "Fizz"
+[1] "41"
+[1] "Buzz"
+[1] "43"
+[1] "44"
+[1] "FizzBuzz"
+[1] "46"
+[1] "47"
+[1] "Buzz"
+[1] "49"
+[1] "Fizz"
 
 ```{r}
 FizzBuzz(30:50)
